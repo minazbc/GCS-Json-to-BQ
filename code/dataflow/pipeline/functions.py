@@ -6,8 +6,11 @@ from google.cloud import bigquery, storage, pubsub_v1
 
 def get_data(data, columns):
     columns = columns.split(".")
-    return reduce(lambda row, column: row.get(column) if row else None, columns, data)
-
+    value = reduce(lambda row, column: row.get(column) if row else None, columns, data)
+    if value is None and "fields" in data:
+        value = reduce(lambda row, column: row.get(column) if row else None, columns, data["fields"])
+    return value
+    
 def parse_data(line):
 
     mapping = {
