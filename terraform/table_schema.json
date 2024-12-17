@@ -1,0 +1,172 @@
+[
+    {
+        "name": "date",
+        "type": "DATE",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "expand",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "id",
+        "type": "INT64",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "key",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "self",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "project",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "project_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "issue_type_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "resolution_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "created_date",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "resolved_date",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "severity",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "team",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "global_release",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "story_points",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "priority",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "bug_type",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "summary",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "testing_scope",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "engineering_area",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "automation_test_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "status",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "reporter",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "assignee_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "total_acv",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "program",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "execution_comments",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "display_in_big_picture",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "updated",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "engineering_feedback",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "proposed_text_for_limitation_or_resolved_issue",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "customer_request_type",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "project_type",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "channel",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
