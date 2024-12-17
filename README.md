@@ -8,8 +8,8 @@ Load JSON files with nested columns uploaded to Cloud Storage, based on provided
 My standard approach to implementing new data pipeline is to review most suitable tools for the task at hand. In this case, although not having personally worked with it yet, Dataflow (in combination with other GCP tools) proved to be one of the most optimal solutions to process large files daily.
 
 See overview of implemented pipeline below.
+![s1_assignment (1)](https://github.com/user-attachments/assets/9665c872-af77-4948-9e6a-9c4f12db585e)
 
-![s1_assignment (1)](https://github.com/user-attachments/assets/4e20b720-4519-40d4-aed3-dc4d9beb049e)
 
 ### Step 0: Terraform (IaC) Infrastructure Creation
 
