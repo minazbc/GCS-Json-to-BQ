@@ -26,7 +26,7 @@ def parse_data(line):
         "team": "customfield_11067.value",
         "global_release": "customfield_11089.value",
         "story_points": "customfield_10026",
-        "priority": "priority",
+        "priority": "priority.name",
         "bug_type": "customfield_11191.value",
         "summary": "summary",
         "testing_scope": "customfield_11137",

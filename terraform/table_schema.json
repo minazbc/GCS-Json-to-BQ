@@ -46,12 +46,12 @@
     },
     {
         "name": "created_date",
-        "type": "DATE",
+        "type": "STRING",
         "mode": "NULLABLE"
     },
     {
         "name": "resolved_date",
-        "type": "DATE",
+        "type": "STRING",
         "mode": "NULLABLE"
     },
     {
@@ -71,7 +71,7 @@
     },
     {
         "name": "story_points",
-        "type": "NUMERIC",
+        "type": "STRING",
         "mode": "NULLABLE"
     },
     {
@@ -121,7 +121,7 @@
     },
     {
         "name": "total_acv",
-        "type": "NUMERIC",
+        "type": "STRING",
         "mode": "NULLABLE"
     },
     {
@@ -141,7 +141,7 @@
     },
     {
         "name": "updated",
-        "type": "DATE",
+        "type": "STRING",
         "mode": "NULLABLE"
     },
     {
@@ -170,3 +170,4 @@
         "mode": "NULLABLE"
     }
 ]
+
