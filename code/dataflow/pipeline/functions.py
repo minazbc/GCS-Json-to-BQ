@@ -16,6 +16,7 @@ def parse_data(line):
     mapping = {
         "expand": "expand",
         "id": "id",
+        "key": "key",
         "self": "self",
         "project_name": "project.name",
         "issue_type_name": "issuetype.name",
